@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" />
+    <PackageReference Include="Microsoft.Data.Sqlite" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+    <PackageReference Include="Npgsql" />
+    <PackageReference Include="NLog" />
+    <PackageReference Include="NLog.Web.AspNetCore" />
+    <PackageReference Include="Tinkoff.InvestApi" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Oid85.FinMarket.Common\Oid85.FinMarket.Common.csproj" />
+    <ProjectReference Include="..\Oid85.FinMarket.Domain\Oid85.FinMarket.Domain.csproj" />
+  </ItemGroup>
+</Project>
